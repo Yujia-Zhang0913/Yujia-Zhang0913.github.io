@@ -229,7 +229,7 @@ figure.highlight {
 html {
   height: 100%;
   margin: 0;
-  font-size: 62.5%;
+  font-size: 80%;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
@@ -463,12 +463,13 @@ blockquote p {
   font-size: 1.8rem;
 }
 .page article a {
-  color: #494e52;
+  color: #1353d7;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .page article a:hover {
-  color: #c62641;
+  color: #1353d7;
+  font-weight: bold;
 }
 .page article .highlight {
   overflow: auto;
@@ -534,8 +535,7 @@ blockquote p {
 }
 .author-avatar img {
   width: 100%;
-  max-width: 110px;
-  border-radius: 50%;
+  max-width: 220px;
 }
 .author-discrip {
   display: table-cell;
